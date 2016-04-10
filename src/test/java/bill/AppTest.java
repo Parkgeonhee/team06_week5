@@ -76,8 +76,6 @@ public class AppTest{
 		assertEquals("173.95$", c.toString());
 	}
 	
-	@Ignore("until we get design right")
-	
 	@Test
 	public void testSilverOnelineBelowFiveHund() {
 		set("S", 400, 1);
