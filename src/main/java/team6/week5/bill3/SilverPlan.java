@@ -15,21 +15,22 @@ public class SilverPlan implements Plan {
 		this.overflowtrafficcost = 0.54;	
 	}
 	
-
+	@Override
 	public double getBasecost() {
 		return this.basecost;
 	}
-	
+	@Override
 	public int getBaseTraffic() {
 		return this.basetraffic;
 	}
 	
-
+	@Override
 	public double getAddLineCost()
 	{
 		return this.addlinecost;
 	}
 	
+	@Override
 	public double getOverflowTrafficCost() {
 		return this.overflowtrafficcost;
 	}

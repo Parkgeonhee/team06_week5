@@ -23,9 +23,6 @@ public class Cost {
 		return this.calculatetotalcost()+"$";
 	}
 	
-	public int getUsed(){
-		return traffic;
-	}
 	
 	public int getNumLine(){
 		return num;
