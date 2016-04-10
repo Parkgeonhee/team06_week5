@@ -1,4 +1,4 @@
-package bill3;
+package bill;
 
 import java.util.logging.*;
 import java.util.Scanner;

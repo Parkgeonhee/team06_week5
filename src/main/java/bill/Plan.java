@@ -1,4 +1,4 @@
-package bill3;
+package bill;
 
 public interface Plan {
 	

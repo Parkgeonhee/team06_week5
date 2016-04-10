@@ -1,4 +1,4 @@
-package bill3;
+package bill;
 
 public class SilverPlan implements Plan {
 	double basecost;

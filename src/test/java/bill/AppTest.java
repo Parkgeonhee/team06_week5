@@ -1,12 +1,8 @@
-package bill3;
+package bill;
 
 import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
-
-import bill3.Cost;
-import bill3.GoldPlan;
-import bill3.SilverPlan;
 
 /**
  * Unit test for simple App.
