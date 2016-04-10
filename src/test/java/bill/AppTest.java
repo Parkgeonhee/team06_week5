@@ -2,6 +2,7 @@ package bill;
 
 import static org.junit.Assert.*;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 
 /**
@@ -74,6 +75,8 @@ public class AppTest{
 		set("G", 1200, 4);
 		assertEquals("173.95$", c.toString());
 	}
+	
+	@Ignore("until we get design right")
 	
 	@Test
 	public void testSilverOnelineBelowFiveHund() {
