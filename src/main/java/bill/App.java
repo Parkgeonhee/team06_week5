@@ -1,10 +1,10 @@
 package bill;
-
+/*
 import java.util.logging.*;
 import java.util.Scanner;
-
+*/
 public class App {
-	
+	/*
 	private App(){
 		
 	}
@@ -19,5 +19,5 @@ public class App {
 		
 		Cost cost = new Cost(plan, traffic, num);
 		logger.log(Level.INFO, cost.toString());
-	}
+	}*/
 }
