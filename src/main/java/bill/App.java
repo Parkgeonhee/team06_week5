@@ -5,6 +5,10 @@ import java.util.Scanner;
 
 public class App {
 	
+	private App(){
+		
+	}
+	
 	public static void main(String[] args) {
 		Logger logger = Logger.getLogger("Bill");
 		@SuppressWarnings("resource")
