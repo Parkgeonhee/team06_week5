@@ -1,4 +1,4 @@
-package team6.week5.bill3;
+package bill3;
 
 public class Cost {
 	

@@ -1,8 +1,12 @@
-package team6.week5.bill3;
+package bill3;
 
 import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
+
+import bill3.Cost;
+import bill3.GoldPlan;
+import bill3.SilverPlan;
 
 /**
  * Unit test for simple App.
@@ -106,19 +110,19 @@ public class AppTest{
 	}
 	
 	@Test
-	public void testGoldTwolineOverFiveHund() {
+	public void testSilverTwolineOverFiveHund() {
 		set("S", 700, 2);
 		assertEquals("159.45$", c.toString());
 	}
 	
 	@Test
-	public void testGoldThreelineOverFiveHund() {
+	public void testSilverThreelineOverFiveHund() {
 		set("S", 700, 3);
 		assertEquals("180.95$", c.toString());
 	}
 	
 	@Test
-	public void testGoldOverThreelineOverFiveHund() {
+	public void testSilverOverThreelineOverFiveHund() {
 		set("S", 700, 4);
 		assertEquals("185.95$", c.toString());
 	}
