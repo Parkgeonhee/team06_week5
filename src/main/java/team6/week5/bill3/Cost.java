@@ -23,17 +23,9 @@ public class Cost {
 		return this.calculatetotalcost()+"$";
 	}
 	
-	/*public void setUsed(int userUsed) {
-		this.traffic = userUsed;
-	}*/
-	
 	public int getUsed(){
 		return traffic;
 	}
-	
-	/*public void setNumLine(int num) {
-		this.num = num;
-	}*/
 	
 	public int getNumLine(){
 		return num;
