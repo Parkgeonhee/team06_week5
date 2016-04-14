@@ -13,7 +13,6 @@ public class AppTest{
 	
 	@Before
 	public void setUp(){
-		App.main(null);
 		c = new Cost(null, 0, 0);
 	}
 	
